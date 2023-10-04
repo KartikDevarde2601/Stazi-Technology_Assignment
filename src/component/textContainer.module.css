@@ -1,0 +1,21 @@
+/* textContainer.module.css */
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    align-items: center; 
+    text-align: center; 
+    margin:0 15%;
+  }
+  
+  .textContainer h2 {
+    font-size: 2rem; /* Customize the font size for the heading */
+  }
+  
+  .textContainer p {
+    font-size: 1.2rem; /* Customize the font size for the paragraph */
+    margin-top: 20px; /* Add some spacing between the heading and paragraph */
+  }
+  

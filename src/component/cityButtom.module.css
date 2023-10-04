@@ -1,0 +1,49 @@
+/* CityButtons.module.css */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 16px;
+}
+
+.city-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
+.city-buttons button {
+    background-color: #e0e0ff;
+    color: #333;
+    border: none;
+    padding: 12px 24px; /* Adjusted padding for width */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 40px; /* Increased border radius */
+}
+
+.city-buttons button:hover {
+    background-color: #c0c0ff;
+}
+
+.active-city-button {
+    background-color: #0000ff;
+    color: #fff;
+}
+
+.view-more {
+    background-color: transparent;
+    border: 2px solid #0000ff;
+    color: #0000ff;
+    padding: 12px 24px; /* Adjusted padding for width */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 40px; /* Increased border radius */
+}
+
+.view-more:hover {
+    background-color: #0000ff;
+    color: #fff;
+}
