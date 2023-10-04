@@ -3,7 +3,8 @@ import { FaHotel, FaBath } from "react-icons/fa";
 import { BiSolidBed, BiSolidArea } from "react-icons/bi";
 import { MdLocationOn } from "react-icons/md";
 import React from "react";
-import styles from './card.module.css'
+import styles from './card.module.css';
+import { Link } from "react-router-dom";
 
 
 
@@ -49,7 +50,9 @@ const PropertyCard = ({ property }) => {
             <h2>
               <span>{property.price}</span>/month
             </h2>
-            <button className={styles.button}>Read more</button>
+            <Link to={`/Properties/${property.id}`} className={styles.button}>
+            Read More
+          </Link>
           </div>
         </div>
       </div>
